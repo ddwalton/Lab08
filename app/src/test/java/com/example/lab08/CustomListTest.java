@@ -34,7 +34,7 @@ public class CustomListTest {
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
         City edmonton = new City("Edmonton", "AB");
-        list.addCity(calgary);
+        list.addCity(edmonton);
 
         assertEquals(2, list.countCities());
 
